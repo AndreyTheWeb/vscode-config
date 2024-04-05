@@ -1,0 +1,88 @@
+{
+  //Main editor settings
+  "editor.folding": false,
+  "editor.insertSpaces": false,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+
+  //Appearance
+  "editor.bracketPairColorization.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.activityBar.location": "top",
+  "editor.accessibilitySupport": "off",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  //Breadcrumbs
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showConstructors": false,
+
+  "workbench.colorTheme": "Nules dark",
+  "vsicons.dontShowNewVersionMessage": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cssVariables.lookupFiles": [
+    "**/styled.ts",
+    "**/*.styled.ts",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less"
+  ],
+  "editor.tabSize": 2,
+  "parameterHints.hintingType": "variableOnly",
+  "dart.flutterSdkPath": "/Users/user/mobile-softphone/flutter",
+  "editor.fontSize": 13,
+  "nxConsole.showNodeVersionOnStartup": false,
+  "typescript.tsserver.log": "verbose",
+  "editor.quickSuggestionsDelay": 0,
+  "svelte.enable-ts-plugin": true,
+  "editor.cursorStyle": "block",
+  "workbench.iconTheme": "catppuccin-latte",
+  "editor.fontFamily": "JetBrains Mono, Space Mono, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "JetBrains Mono, Space Mono",
+  "scm.inputFontFamily": "JetBrains Mono, Space Mono",
+  "notebook.output.fontFamily": "JetBrains Mono, Space Mono",
+  "chat.editor.fontFamily": "JetBrains Mono, Space Mono",
+  "debug.console.fontFamily": "JetBrains Mono, Space Mono",
+  "editor.inlineSuggest.fontFamily": "JetBrains Mono, Space Mono",
+  "editor.indentSize": "tabSize",
+  "update.mode": "default",
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hidden"
+  },
+  "apc.font.family": "JetBrains Mono",
+  "apc.header": {
+    "height": 20
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom"
+  },
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+    ],
+    "height": 28,
+    "fontSize": 12
+  }
+}
