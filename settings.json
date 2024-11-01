@@ -4,17 +4,14 @@
   "editor.insertSpaces": false,
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": false,
-
   //Appearance
   "editor.bracketPairColorization.enabled": false,
   "editor.glyphMargin": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
-  "workbench.activityBar.location": "top",
   "editor.accessibilitySupport": "off",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-
   //Breadcrumbs
   "breadcrumbs.icons": false,
   "breadcrumbs.showKeys": false,
@@ -30,9 +27,7 @@
   "breadcrumbs.showConstants": false,
   "breadcrumbs.showEnumMembers": false,
   "breadcrumbs.showConstructors": false,
-
-  "workbench.colorTheme": "Nules dark",
-  "vsicons.dontShowNewVersionMessage": true,
+  //Formatters
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -40,49 +35,92 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cssVariables.lookupFiles": [
-    "**/styled.ts",
-    "**/*.styled.ts",
-    "**/*.css",
-    "**/*.scss",
-    "**/*.sass",
-    "**/*.less"
-  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "[svelte]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.tabSize": 2,
   "parameterHints.hintingType": "variableOnly",
   "dart.flutterSdkPath": "/Users/user/mobile-softphone/flutter",
-  "editor.fontSize": 13,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.3,
   "nxConsole.showNodeVersionOnStartup": false,
   "typescript.tsserver.log": "verbose",
   "editor.quickSuggestionsDelay": 0,
   "svelte.enable-ts-plugin": true,
   "editor.cursorStyle": "block",
-  "workbench.iconTheme": "catppuccin-latte",
-  "editor.fontFamily": "JetBrains Mono, Space Mono, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontFamily": "JetBrains Mono, Space Mono",
+  "editor.fontFamily": "Fira Code, JetBrains Mono, Space Mono, Menlo, Monaco, 'Courier New', monospace, Hack Nerd Font Propo",
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss07', 'ss08', 'ss10', 'zero', 'cv31', 'cv32', 'cv27', 'cv24', 'cv26', 'cv29', 'cv30', 'cv16'",
+  "terminal.integrated.fontFamily": "FiraCode, Hack Nerd Font Propo, JetBrains Mono, Space Mono",
   "scm.inputFontFamily": "JetBrains Mono, Space Mono",
   "notebook.output.fontFamily": "JetBrains Mono, Space Mono",
   "chat.editor.fontFamily": "JetBrains Mono, Space Mono",
   "debug.console.fontFamily": "JetBrains Mono, Space Mono",
   "editor.inlineSuggest.fontFamily": "JetBrains Mono, Space Mono",
   "editor.indentSize": "tabSize",
-  "update.mode": "default",
-  "window.titleBarStyle": "native",
+  "update.mode": "manual",
+  //Apc extension
   "apc.electron": {
-    "titleBarStyle": "hidden"
+    "opacity": 0.99,
+    "transparent": true,
+    "vibrancy": "ultra-dark",
+    "titleBarStyle": "hidden",
+    "titleBarOverlay": {
+      "height": 0
+    }
   },
   "apc.font.family": "JetBrains Mono",
   "apc.header": {
-    "height": 20
+    "height": 18
+  },
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view"
+    ],
+    "height": 28
   },
   "apc.statusBar": {
     "position": "editor-bottom"
   },
-  "apc.listRow": {
-    "lists": [
-      "explorer-folders-view",
-    ],
-    "height": 28,
-    "fontSize": 12
-  }
+  "prisma.showPrismaDataPlatformNotification": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  // VSCODE performance settings
+  "editor.codeLens": false,
+  "search.searchOnType": false,
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.activityBar.location": "top",
+  "terminal.external.osxExec": "Warp.app",
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  },
+  "eslint.probe": [
+    "astro",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "mdx",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc",
+    "svelte"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "svelte",
+    "vue"
+  ],
+  "workbench.iconTheme": "Monokai Classic Icons"
 }
