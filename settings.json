@@ -8,8 +8,8 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.glyphMargin": false,
   "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
   "editor.accessibilitySupport": "off",
+  "editor.scrollbar.vertical": "hidden",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   //Breadcrumbs
@@ -50,7 +50,7 @@
   "parameterHints.hintingType": "variableOnly",
   "dart.flutterSdkPath": "/Users/user/mobile-softphone/flutter",
   "editor.renderWhitespace": "none",
-  // "editor.fontWeight": "400",
+  "editor.fontWeight": "300",
   "editor.fontSize": 17,
   "editor.lineHeight": 1.3,
   "nxConsole.showNodeVersionOnStartup": false,
@@ -97,7 +97,7 @@
   // VSCODE performance settings
   "editor.codeLens": false,
   "search.searchOnType": false,
-  "workbench.colorTheme": "NeoRose-VimPine",
+  "workbench.colorTheme": "Tokyo Night Blackout",
   "workbench.activityBar.location": "top",
   "terminal.external.osxExec": "Warp.app",
   "terminal.integrated.env.osx": {
